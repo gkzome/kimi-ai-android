@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kimi AI</string>
+    <string name="welcome_message">Welcome to Kimi AI</string>
+    <string name="hint_enter_message">Type a message...</string>
+    <string name="send">Send</string>
+    <string name="settings">Settings</string>
+    <string name="api_key_title">API Key</string>
+    <string name="api_key_description">Enter your Moonshot AI API key</string>
+    <string name="model_title">Model</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_chat">New Chat</string>
+    <string name="chat_history">Chat History</string>
+    <string name="no_messages_yet">No messages yet. Start a conversation!</string>
+    <string name="typing">Kimi is thinking...</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_api_key">Please set your API key in settings</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="clear_chat">Clear Chat</string>
+    <string name="copy_message">Copy</string>
+    <string name="message_copied">Message copied to clipboard</string>
+    <string name="about">About</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="open_source">Free &amp; Open Source</string>
+    <string name="get_api_key">Get your API key at platform.moonshot.cn</string>
+</resources>
