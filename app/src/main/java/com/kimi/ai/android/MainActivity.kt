@@ -16,7 +16,6 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.History
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.DropdownMenu
@@ -47,6 +46,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.kimi.ai.android.ui.screens.ChatScreen
 import com.kimi.ai.android.ui.screens.SettingsScreen
@@ -195,6 +195,3 @@ fun KimiAIApp(viewModel: ChatViewModel = viewModel()) {
         }
     }
 }
-
-// Need this import for dp in NavigationDrawerItemDefaults
-import androidx.compose.ui.unit.dp
